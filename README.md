@@ -19,3 +19,15 @@
 3. Users can update their details partially (optional fields in PUT /users/{id}).
 4. A user can be deleted permanently (no soft delete).
 5. The app is a backend only (no frontend, only API).
+
+📌 7. How to Run?
+
+✅ Step 1: Clone the repository
+1. git clone https://github.com/Manishsingh89716/user_match_making
+
+✅ Step 2: Install Dependencies
+2. pip install -r requirements.txt
+
+✅ Step 3: Run FastAPI Server
+3. cd User_Matchmaking_App
+4. uvicorn main:app --reload
